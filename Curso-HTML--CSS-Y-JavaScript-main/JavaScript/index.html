@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convertidor de Monedas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Convertidor de Monedas</h1>
+    <p>Convierte entre Dólares (USD) y Pesos Mexicanos (MXN)</p>
+  </header>
+
+  <main>
+    <section class="converter">
+      <label for="amount">Cantidad:</label>
+      <input type="number" id="amount" placeholder="Escribe una cantidad" />
+
+      <label for="currency">Convertir de:</label>
+      <select id="currency">
+        <option value="usd-to-mxn">USD a MXN</option>
+        <option value="mxn-to-usd">MXN a USD</option>
+      </select>
+
+      <button id="convert-btn">Convertir</button>
+
+      <p id="result"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho con ❤️ por [Adal Mauricio Zamora Camacho]</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablero Personalizado</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h2>Proyectos</h2>
+    <ol>
+      <li>Proyectos Activos</li>
+      <li>Archivados</li>
+    </ol>
+    <button class="btn-action">Crear Borrador</button>
+    <button class="btn-action-alt">Iniciar Nuevo Proyecto</button>
+  </aside>
+
+  <div id="dashboard-container">
+    <header>
+      <h1>Tus Proyectos</h1>
+    </header>
+
+    <div class="board">
+      <div class="column">
+        <h3><span class="dot blue"></span>Ideas</h3>
+        <div class="note">
+          <p><strong>Moodboard de Diseño:</strong> Crea un tablero visual para inspirar el diseño del producto.</p>
+          <img src="../Web/assets/icons/user/link.svg" alt="Ícono de enlace">
+        </div>
+        <button>Añadir Nota</button>
+      </div>
+
+      <div class="column">
+        <h3><span class="dot yellow"></span>Características / En Progreso</h3>
+        <div class="note">
+          <p><strong>Diseño de API:</strong> Define los endpoints y la estructura para una integración eficiente.</p>
+        </div>
+        <div class="note">
+          <p><strong>Prototipos Hi-Fi:</strong> Finaliza los prototipos interactivos para pruebas de usuario.</p>
+        </div>
+        <div class="note">
+          <p><strong>Diseños de Casos Especiales:</strong> Considera todos los escenarios posibles en la interfaz.</p>
+        </div>
+        <button>Añadir Nota</button>
+      </div>
+
+      <div class="column">
+        <h3><span class="dot green"></span>Finalizado</h3>
+        <div class="note">
+          <p><strong>Arquitectura de Información:</strong> Organiza la estructura de contenido para mejor usabilidad.</p>
+        </div>
+        <div class="note">
+          <p><strong>Convención de Código:</strong> Establece estándares consistentes de programación para el equipo.</p>
+        </div>
+        <div class="note">
+          <p><strong>Wireframes:</strong> Completa los diseños básicos para las principales funciones.</p>
+        </div>
+        <button>Añadir Nota</button>
+      </div>
+
+      <div class="column">
+        <h3><span class="dot black"></span>Metas</h3>
+        <div class="note">
+          <p><strong>Producto Mínimo Viable (MVP):</strong> Completa las características esenciales para el lanzamiento inicial.</p>
+        </div>
+        <div class="note">
+          <p><strong>Planes de Lanzamiento:</strong> Desarrolla una estrategia de marketing y despliegue del producto.</p>
+        </div>
+        <button>Añadir Nota</button>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2>¿Por qué elegir este tablero?</h2>
+    <p>Organiza, prioriza y supervisa tus proyectos en un solo lugar. ¡Diseñado para eficiencia y flexibilidad!</p>
+    <img src="dashboard-preview.jpg" alt="Vista previa del tablero" class="dashboard-image">
+  </section>
+
+</body>
+</html>
